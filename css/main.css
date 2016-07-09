@@ -20,6 +20,12 @@ a{
 	margin: 0;
 	line-height: inherit;
 }
+.post .content p{
+	margin: 1.414rem 0 0.5rem;
+	font-weight: inherit;
+	line-height: 1.42;
+	font-size: 1.414rem;
+}
 .made-by a, a:hover{
 	color: #25ba84;
 }
