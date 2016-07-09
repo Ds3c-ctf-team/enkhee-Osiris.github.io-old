@@ -42,7 +42,7 @@ a{
 	font-size: 30px;
 	margin-right: 10px;
 }
-.type-text{
+.text-block {
 	display: block;
 	max-width: 100%;
 	overflow: hidden;
