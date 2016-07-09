@@ -42,9 +42,9 @@ a{
 	font-size: 30px;
 	margin-right: 10px;
 }
-.type-wrap h4{
+.type-text{
+	display: block;
 	max-width: 100%;
-	overflow-wrap: break-word;
 	overflow: hidden;
 }
 
