@@ -13,37 +13,56 @@
 
 <body>
     <div class="py2">
-    	<div class="txt--center">
-    		<h1>
+        <div class="txt--center">
+            <h1>
     			Сайн байна уу?
     		</h1>
-    		<div class="measure">
-			<h4 class="fnt--mid-gray txt--left">
-				Намайг Энх-Эрдэнэ гэдэг. 2013 онд КТМСургуульд элсэж програм хангамжийн инженер болох анхны гараагаа тавьсан. Одоо МХТСургуулийн Програм Хангамжийн ангийн 3-аар курст сурдаг.
-				Миний блогт тавтай морилно уу!
+            <div class="measure">
+                <h4 class="fnt--mid-gray txt--left">
+				  <div id="typed-strings">
+				    <span>Намайг <strong>Энх-Эрдэнэ</strong> гэдэг.</span>
+				    <p>2013 онд <em>КТМСургуульд</em> элсэж програм хангамжийн инженер болох анхны гараагаа тавьсан.</p>
+				    <p>Одоо <em>МХТСургуулийн</em> Програм Хангамжийн ангийн 3-аар курст сурдаг.</p>
+				    <p>Миний блогт тавтай морилно уу!</p>
+				  </div>
+				  <span id="typed" style="white-space:pre;"></span>
 			</h4>
-    		</div>
-    	</div>
-    	<section class="measure my2" id="blogs">
-    		<h2 class="h2">Блогууд</h2>
-    		{{ content }}
-    	</section>
+            </div>
+        </div>
+        <section class="measure my2" id="blogs">
+            <h2 class="h2">Блогууд</h2> {{ content }}
+        </section>
     </div>
     <footer>
-    	<div class="grd-row m0 p1">
-    		<div class="social grd-row-col-3-6 m1 txt--left">
-	    		<a href="https://www.facebook.com/Ag.Enhee"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-	    		<a href="http://plus.google.com/u/0/112344332196739703465"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-	    		<a href="http://lodrosiris.tumblr.com"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a>
-	    		<a href="https://github.com/enkhee-Osiris"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-	    		<a href="https://www.instagram.com/osiris.ag/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    		</div>
-			
-    		<div class="made-by grd-row-col-3-6 m1 txt--right">
-    			Crafted with <span style="color: #25ba84">&hearts;</span> by <a href="https://github.com/enkhee-Osiris">Osiris</a>
-    		</div>
-    	</div>
+        <div class="grd-row m0 p1">
+            <div class="social grd-row-col-3-6 m1 txt--left">
+                <a href="https://www.facebook.com/Ag.Enhee"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="http://plus.google.com/u/0/112344332196739703465"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                <a href="http://lodrosiris.tumblr.com"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a>
+                <a href="https://github.com/enkhee-Osiris"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/osiris.ag/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="made-by grd-row-col-3-6 m1 txt--right">
+                Crafted with <span style="color: #25ba84">&hearts;</span> by <a href="https://github.com/enkhee-Osiris">Osiris</a>
+            </div>
+        </div>
     </footer>
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    <script src="/js/typed.min.js"></script>
+    <script>    
+    $(function(){
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html',
+            loopCount: false
+        });
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+    });</script>
 </body>
 
 </html>
