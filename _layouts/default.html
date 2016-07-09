@@ -19,6 +19,12 @@
     		</h1>
             <div class="measure">
                 <div class="txt--left">
+                	<div id="typed-strings">
+                		<span>Намайг <strong>Энх-Эрдэнэ</strong> гэдэг.</span>
+                        <p>2013 онд <em>КТМСургуульд</em> элсэж програм хангамжийн инженер болох анхны гараагаа тавьсан.</p>
+                        <p>Одоо <em>МХТСургуулийн</em> Програм Хангамжийн ангийн 3-аар курст сурдаг.</p>
+                        <p>Миний блогт тавтай морилно уу!</p>
+                	</div>
                     <span class="fnt--mid-gray h4" id="typed">
 					  </span>
                 </div>
@@ -45,15 +51,14 @@
     <script src="/js/jquery-2.2.4.min.js"></script>
     <script src="/js/typed.min.js"></script>
     <script>
-    $(function() {
-
-        $("#typed").typed({
-            strings: ["Typed.js is a jQuery plugin.", "It tyops out lorem qwkepo qkwopke poqkwpoke qkwpok qwioejqo joieqjwoiejqw,", "It types out sentences qwjeoiqjwioje oiqjwoi jeoiqjwoijeqw qweqweqweqweq.", "And then deletes them qwjeioqwjeoijqwoijeoiqjwoeij.", "Try it out!"],
-            typeSpeed: 30
-        });
-
+    $("#typed").typed({
+        stringsElement: $('#typed-strings'),
+        typeSpeed: 30,
+        backDelay: 500,
+        loop: false,
+        contentType: 'html',
+        loopCount: false
     });
     </script>
 </body>
-
 </html>
