@@ -74,6 +74,9 @@ a:hover {
 	text-align: left;
 	overflow: hidden;
 }
+#typed {
+	display: inline-block;
+}
 footer .grd-row-col-3-6 {
     line-height: inherit;
 }
