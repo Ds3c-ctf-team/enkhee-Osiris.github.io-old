@@ -10,13 +10,13 @@ body {
 body > div{
   flex: 1;
 }
-.blogs a{
+a{
 	color: #333;
 }
 #blogs h2.h2{
 	margin-top: 0;
 }
-.made-by a, .blogs a:hover{
+.made-by a, a:hover{
 	color: #25ba84;
 }
 .measure img{
