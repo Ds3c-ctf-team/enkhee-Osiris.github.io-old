@@ -13,13 +13,13 @@ body {
 .measure img{
 	height: 128px;
 }
-footer .grd-row a i{
+.social a i{
 	color: #333;
 }
-footer .grd-row a:hover i{
+.social a:hover i{
 	color: #25ba84;
 }
-footer .grd-row a{
+.social a{
 	font-size: 30px;
 	margin-right: 10px;
 }
