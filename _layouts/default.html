@@ -17,15 +17,10 @@
             <h1>
     			Сайн байна уу?
     		</h1>
-            <div class="measure">
-                <div class="text-block txt--left">
-					  <div id="typed-strings">
-					    <span>Намайг <strong>Энх-Эрдэнэ</strong> гэдэг.</span>
-					    <p>2013 онд <em>КТМСургуульд</em> элсэж програм хангамжийн инженер болох анхны гараагаа тавьсан.</p>
-					    <p>Одоо <em>МХТСургуулийн</em> Програм Хангамжийн ангийн 3-аар курст сурдаг.</p>
-					    <p>Миний блогт тавтай морилно уу!</p>
-					  </div>
-					  <span class="fnt--mid-gray h4" id="typed" style="white-space:pre;"></span>
+            <div class="measure text-editor-wrap">
+                <div class="text-body txt--left">
+                    <span class="fnt--mid-gray h4" id="typed" style="white-space:pre;">
+					  </span>
                 </div>
             </div>
         </div>
@@ -49,20 +44,16 @@
     </footer>
     <script src="/js/jquery-2.2.4.min.js"></script>
     <script src="/js/typed.min.js"></script>
-    <script>    
-    $(function(){
+    <script>
+    $(function() {
+
         $("#typed").typed({
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: false,
-            contentType: 'html',
-            loopCount: false
+            strings: ["Typed.js is a jQuery plugin.", "It tyops out", "It types out sentences.", "And then deletes them.", "Try it out!"],
+            typeSpeed: 30
         });
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-    });</script>
+
+    });
+    </script>
 </body>
 
 </html>

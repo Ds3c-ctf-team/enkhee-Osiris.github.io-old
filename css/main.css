@@ -1,78 +1,113 @@
 html {
-  height: 100%;
+    height: 100%;
 }
+
 body {
-  font-family: 'Playfair Display', serif;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-body > div{
-  flex: 1;
-}
-a{
-	color: #333;
-}
-#blogs h2.h2{
-	margin-top: 0;
-}
-.post .date{
-	margin: 0;
-	line-height: inherit;
-}
-.post .content p{
-	margin: 1.414rem 0 0.5rem;
-	font-weight: inherit;
-	line-height: 1.42;
-	font-size: 1.999rem;
-}
-.made-by a, a:hover{
-	color: #25ba84;
-}
-.measure img{
-	height: 128px;
-}
-.social a i{
-	color: #333;
-}
-.social a:hover i{
-	color: #25ba84;
-}
-.social a{
-	font-size: 30px;
-	margin-right: 10px;
-}
-.text-block {
-	display: block;
-	max-width: 100%;
-	overflow: hidden;
+    font-family: 'Playfair Display', serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-footer .grd-row-col-3-6{
-	line-height: inherit;
-}
-footer .made-by{
-	font-size: 20px;
+body > div {
+    flex: 1;
 }
 
-.typed-cursor{
+a {
+    color: #333;
+}
+
+#blogs h2.h2 {
+    margin-top: 0;
+}
+
+.post .date {
+    margin: 0;
+    line-height: inherit;
+}
+
+.post .content p {
+    margin: 1.414rem 0 0.5rem;
+    font-weight: inherit;
+    line-height: 1.42;
+    font-size: 1.999rem;
+}
+
+.made-by a,
+a:hover {
+    color: #25ba84;
+}
+
+.measure img {
+    height: 128px;
+}
+
+.social a i {
+    color: #333;
+}
+
+.social a:hover i {
+    color: #25ba84;
+}
+
+.social a {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.text-editor-wrap {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+footer .grd-row-col-3-6 {
+    line-height: inherit;
+}
+
+footer .made-by {
+    font-size: 20px;
+}
+
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
