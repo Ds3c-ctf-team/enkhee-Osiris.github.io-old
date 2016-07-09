@@ -7,3 +7,6 @@ body {
 .made-by a, .blogs a:hover{
 	color: #25ba84;
 }
+.measure img{
+	height: 128px;
+}
