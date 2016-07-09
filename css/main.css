@@ -56,11 +56,24 @@ a:hover {
 }
 
 .text-editor-wrap {
-    display: block;
-    clear: both;
-    overflow: hidden;
+	display: block;
+	margin: auto;
+	max-width: 530px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+	clear: both;
+	overflow: hidden;
 }
-
+.text-body {
+	height: 250px;
+	padding: 10px;
+	color: #f0f0f0;
+	font-size: 1.75em;
+	line-height: 1.40em;
+	font-weight: 500;
+	text-align: left;
+	overflow: hidden;
+}
 footer .grd-row-col-3-6 {
     line-height: inherit;
 }
