@@ -4,6 +4,9 @@ body {
 .blogs a{
 	color: #333;
 }
+.blogs h2{
+	margin-top: 0;
+}
 .made-by a, .blogs a:hover{
 	color: #25ba84;
 }
