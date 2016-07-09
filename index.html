@@ -6,7 +6,7 @@ title: Энхээгийн хувийн блог
     {% for post in site.posts %}
     <li>
         <h3>
-	    {{ post.date }} &raquo; 
+	    {{ post.date | date: "%Y-%m-%d" }} &raquo; 
 	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    </h3>
     </li>
