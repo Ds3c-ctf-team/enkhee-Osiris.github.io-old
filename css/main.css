@@ -23,3 +23,9 @@ body {
 	font-size: 30px;
 	margin-right: 10px;
 }
+footer .grd-row-col-3-6{
+	line-height: inherit;
+}
+footer .made-by{
+	font-size: 20px;
+}
