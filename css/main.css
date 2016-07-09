@@ -19,3 +19,7 @@ footer .grd-row a i{
 footer .grd-row a:hover i{
 	color: #25ba84;
 }
+footer .grd-row a{
+	font-size: 30px;
+	margin-right: 10px;
+}
