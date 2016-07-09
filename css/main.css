@@ -1,5 +1,11 @@
 body {
   font-family: 'Playfair Display', serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body div{
+  flex: 1;
 }
 .blogs a{
 	color: #333;
