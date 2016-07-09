@@ -13,3 +13,9 @@ body {
 .measure img{
 	height: 128px;
 }
+footer .grd-row a i{
+	color: #333;
+}
+footer .grd-row a:hover i{
+	color: #25ba84;
+}
