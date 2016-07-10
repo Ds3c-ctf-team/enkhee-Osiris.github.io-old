@@ -16,7 +16,12 @@ body > div {
 a {
     color: #333;
 }
-
+#typed {
+    display: inline-block;
+}
+.typed-cursor {
+    color: #000;
+}
 #blogs h2.h2 {
     margin-top: 0;
 }
