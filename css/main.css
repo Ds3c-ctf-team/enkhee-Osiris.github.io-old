@@ -26,6 +26,16 @@ a {
     line-height: inherit;
 }
 
+table td,
+table th {
+    padding: 0.5rem 2rem 0.5rem 0;
+}
+
+table,
+table th {
+    font-size: 1.999rem;
+}
+
 .post .content p {
     margin: 1.414rem 0 0.5rem;
     font-weight: inherit;
