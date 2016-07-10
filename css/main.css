@@ -190,6 +190,13 @@ footer .made-by {
     .post .measure h1.txt--center {
         text-align: center;
     }
+    .social a {
+        font-size: 1.9rem;
+    }
+    footer .made-by {
+        font-size: 1.5rem;
+        line-height: 1.7;
+    }
 }
 @media screen and (min-width:64rem) {
 
