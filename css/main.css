@@ -130,6 +130,9 @@ footer .made-by {
     }
 }
 @media screen and (max-width: 32rem) {
+    .container.py2{
+        padding: 1rem 1rem;
+    }
     footer .px2{
         padding: 0 1rem;
     }
