@@ -136,6 +136,21 @@ footer .made-by {
     footer .px2{
         padding: 0 1rem;
     }
+    .container .measure h1 {
+        font-size:3.4rem;
+    }
+    .container .measure section.my2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    section#blogs h2 {
+        font-size: 2.4rem;
+    }
+    section#blogs ul li h3 {
+        font-size: 1.4rem;
+        margin: 1rem 0 .5rem;
+        line-height: 1
+    }
     .post .measure a.h3{
         font-size: 1.4rem
     }
