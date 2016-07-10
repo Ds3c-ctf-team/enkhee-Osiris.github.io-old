@@ -25,7 +25,9 @@ a {
     margin: 0;
     line-height: inherit;
 }
-
+table>thead {
+    border-bottom: thin solid rgba(190, 190, 190, 0.99);
+}
 table td,
 table th {
     padding: 0.5rem 2rem 0.5rem 0;
