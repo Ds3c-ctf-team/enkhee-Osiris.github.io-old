@@ -179,6 +179,17 @@ footer .made-by {
     .container.py2{
         padding: 1rem 1rem;
     }
+    .container .measure h1 {
+        font-size:3.6rem;
+    }
+    section#blogs h2 {
+        font-size: 2.6rem;
+    }
+    section#blogs ul li h3 {
+        font-size: 1.7rem;
+        margin: 1.2rem 0 .5rem;
+        line-height: 1
+    }
     footer .px2{
         padding: 0 1rem;
     }
