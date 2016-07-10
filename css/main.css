@@ -209,11 +209,28 @@ footer .made-by {
         font-size: 2.8rem;
     }
 }
+@media screen (max-width: 479px) and (min-width: 376px) {
+    html {
+        font-size: 15px
+    }
+    section#blogs h2 {
+        font-size: 2.6rem;
+    }
+    section#blogs ul li h3 {
+        font-size: 1.7rem;
+        margin: 1.2rem 0 .5rem;
+        line-height: 1
+    }
+    footer .px2{
+        padding: 0 1rem;
+    }
+}
 @media screen and (max-width: 799px) {
     .container.py2{
         padding: 1rem 1rem;
     }
 }
+
 @media screen and (min-width:48rem) {
     .post .measure h1.txt--center {
         text-align: center;
