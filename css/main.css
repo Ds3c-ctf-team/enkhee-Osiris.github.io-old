@@ -32,10 +32,10 @@ table td,
 table th {
     padding: 0.5rem 2rem 0.5rem 0;
 }
-tbody tr {
+tbody td {
     line-height: 1.5;
 }
-tbody tr:last-child {
+table td:last-child {
     padding-right: 0;
 }
 table,
