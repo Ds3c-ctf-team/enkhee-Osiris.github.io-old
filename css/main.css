@@ -156,7 +156,9 @@ footer .made-by {
     }
 }
 @media screen and (min-width:32rem) {
-
+    .post .measure h1.txt--center {
+        text-align: left;
+    }
 }
 @media screen and (min-width:32rem) and (max-width:48rem) {
     .container.py2{
@@ -165,8 +167,24 @@ footer .made-by {
     footer .px2{
         padding: 0 1rem;
     }
+    .post .measure a.h3{
+        font-size: 2rem;
+    }
+    .post .measure a.h3{
+        margin: 0.5rem 0 .5rem;
+        font-weight: inherit;
+        line-height: 1.4;
+    }
+    .post .measure h1 {
+        margin-left: 105px;
+        font-size: 3rem;
+    }
 }
 @media screen and (min-width:48rem) {
-
+    .post .measure h1.txt--center {
+        text-align: center;
+    }
 }
 @media screen and (min-width:64rem) {
+
+}
