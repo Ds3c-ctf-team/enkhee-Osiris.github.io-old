@@ -129,11 +129,15 @@ footer .made-by {
         opacity: 1;
     }
 }
-
-@media screen and (min-width:32rem) and (max-width:48rem) {
-
+@media screen and (max-width: 32rem) {
+    footer .px2{
+        padding: 0 1rem;
+    }
 }
 @media screen and (min-width:32rem) {
+
+}
+@media screen and (min-width:32rem) and (max-width:48rem) {
 
 }
 @media screen and (min-width:48rem) {
