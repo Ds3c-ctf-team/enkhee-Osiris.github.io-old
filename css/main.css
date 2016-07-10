@@ -175,7 +175,7 @@ footer .made-by {
         text-align: left;
     }
 }
-@media screen and (min-width:32rem) and (max-width:48rem) {
+@media screen and (max-width:48rem) and (min-width:32rem) {
     .container.py2{
         padding: 1rem 1rem;
     }
